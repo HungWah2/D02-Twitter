@@ -1,0 +1,127 @@
+html{
+    min-height: 100%;
+    background: url(./asset/Screenshot\ 2023-02-02\ 200746.png);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
+}
+body{
+    overflow: hidden;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif; /*'Futura Today Bold';
+    src: url('http://path/to/futuratodaybold.woff') format('woff')*/
+}
+.container{
+    background-color: white;
+    height: 188%;
+    width: 55%;
+    border-radius: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -304 auto;
+    border: white;
+}
+  .close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    
+}
+.button1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 67.5px;
+    border: 0.5px solid rgb(207, 217, 222);
+    border-radius: 50px;
+    height: 63.5px;
+    width: 37.3rem;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.button2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    border: 0.5px solid rgb(207, 217, 222);
+    border-radius: 50px;
+    height: 63.8px;
+    width: 37.3rem;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+hr{
+    width: 255px;
+    border: 0.5px solid rgb(207, 217, 222);
+}
+.line{
+    display: flex;
+    font-size: 33px;
+}
+input{
+    font-size: 34px;
+    border: 0.5px solid rgb(207, 217, 222);
+}
+.continue{
+    padding-top: 17px;
+    margin-top: 35px;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    height: 52px;
+    width: 37.3rem;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+    background-color: black;
+    color: white;
+}
+.fpassword{
+    padding-top: 17px;
+    margin-top: 47px;
+    border: 0.5px solid rgb(207, 217, 222);
+    border-radius: 50px;
+    height: 52px;
+    width: 37.3rem;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.signUp{
+    margin-top: 80px;
+    display: flex;
+    font-size: 30px;
+}
+.form{
+    
+}
